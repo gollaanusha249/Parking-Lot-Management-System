@@ -112,7 +112,7 @@ class ParkingService {
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ParkingService parkingService = new ParkingService(5);
+        ParkingService parkingService = new ParkingService(30);
 
         while (true) {
             System.out.println("1. Park Vehicle\n2. Unpark Vehicle\n3. Exit");
